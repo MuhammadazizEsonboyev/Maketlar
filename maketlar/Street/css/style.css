@@ -1,0 +1,103 @@
+*{
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+/* ======================= header start */
+header{
+    background: url(../images/bg_img.jpg);
+    padding-bottom: 152px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+header nav .logo{
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    padding: 8px 18px;
+    background: #4e9f0d;
+    text-align: center;
+    border: 3px solid #62be19;
+    border-radius: 5px;
+    box-shadow: inset 0 0 5px #48912c;
+    line-height: 17px;
+}
+
+header nav .menu{
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav .menu .list .link{
+    display: block;
+    padding: 37px 11px 29px 10px;
+    color: #69cf17;
+    font-size: 20px;
+    font-weight: 300;
+    text-decoration: none;
+    transition: .5s;
+    display: flex;
+    align-items: center;
+}
+
+header nav .menu .list .link:hover,
+header nav .menu .list .link.active{
+    background: rgba(105, 207, 23, .75);
+    color: #ffffff;
+}
+
+header nav .menu .list .link span{
+    display: flex;
+    width: 24px;
+    height: 24px;
+    background: #ffffff;
+    color: #69cf17;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 6px;
+}
+
+header h1{
+    font-weight: 900;
+    font-size: 72px;
+    color: #69cf17;
+    text-transform: uppercase;
+    margin-top: 150px;
+    margin-bottom: 19px;
+    line-height: 66px;
+}
+
+header .meat{
+    color: #69cf17;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 25px;
+    display: block;
+    margin-bottom: 28px;
+}
+
+header .info{
+    color: #dedede;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 75px;
+}
+
+header .price{
+    padding: 28px 90px;
+    background: rgba(105, 207, 23, .75);
+    border: none;
+    font-weight: 100;
+    font-size: 60px;
+    color: #ffffff;
+    line-height: 46px;
+}
