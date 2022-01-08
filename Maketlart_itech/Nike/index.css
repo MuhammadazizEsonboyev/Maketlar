@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: url(./img/Nike_cover.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.nav img img {
+  width: 140px;
+}
+
+.nav ul {
+  display: flex;
+  margin-left: 50px;
+}
+
+.nav ul li {
+  list-style: none;
+  padding: 20px 24px;
+  transition: 1s;
+}
+
+.nav ul li a {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.nav ul li:hover {
+  background: gray;
+  cursor: pointer;
+}
+
+.nav ul li a:hover {
+  color: white;
+}
+
+
+header .title{
+    width: 1100px;
+    margin: auto;
+    padding-top: 130px;
+}
+
+
+header .title h2{
+    color: white;
+    font-size: 100px;
+    font-weight: 700;
+}
+header .title .title_text{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 290px;
+}
+
+header .title .title_text span{
+    color: red;
+}
