@@ -1,0 +1,82 @@
+body{
+    background: tan;
+}
+
+.katta{
+    display: flex;
+    justify-content: center;
+    margin-top: 300px;
+    height: 150px;
+}
+
+
+
+form{
+    width: 300px;
+    text-align: center;
+    padding: 20px;
+    background: cornsilk;
+    box-shadow: 0px 0px 10px ;
+
+}
+
+.text1{
+    padding: 7px 100px 7px 5px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.text2{
+    padding: 7px 20px 7px 5px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+
+}
+.password{
+    padding: 7px 100px 7px 5px;
+    border-radius: 5px;
+}
+
+.button{
+    margin-top: 20px;
+}
+
+.button .btn{
+    padding: 5px 25px;
+    background: grey;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.fa{
+    font-size: 12px;
+    color: black;
+}
+
+/* ------------------------------- Sign out -------------------------------- */
+
+
+.katta2{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+
+.first{
+    padding: 7px 20px 7px 5px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.last{
+    padding: 7px 20px 7px 5px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.email2{
+    padding: 7px 20px 7px 5px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
