@@ -42,7 +42,7 @@
       </div>
     </section>
     <section class="about" id="about">
-      <div class="row">
+      <div class="row d-flex justify-content-center">
         <div class="col50">
           <h2 class="titleText"><span>B</span>iz haqimizda</h2>
           <p>
@@ -78,8 +78,20 @@
           <div class="text">
             <h3>Speecial Salads</h3>
           </div>
+        <div class="root">
+          <div class="hover">
+            <div class="big">
+              <div class="texts">
+                <h2>50.000</h2>
+              </div>
+              <div class="button">
+                <button>Send</button>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="box">
+        </div>
+        <!-- <div class="box">
           <div class="imgBx">
             <img src="./img/rasm2.jpg" alt="" />
           </div>
@@ -118,7 +130,7 @@
           <div class="text">
             <h3>Speecial Pasta</h3>
           </div>
-        </div>
+        </div> -->
       </div>
       <div class="title">
         <a href="#" class="btn">View all</a>
@@ -159,7 +171,7 @@
             <img src="./img/rasm8.jpg" alt="" />
           </div>
           <div class="text">
-            <h3>Esonboyev Muhammadaziz</h3>
+            <h3>Muhammadaziz</h3>
           </div>
         </div>
       </div>
@@ -219,18 +231,18 @@
           <input type="text" required placeholder="name" />
         </div>
         <div class="inputBox">
-          <input type="text" required placeholder="email" >
+          <input type="text" required placeholder="email" />
         </div>
-          <div class="inputBox">
-            <textarea required placeholder="Coment"></textarea>
-          </div>
-          <div class="inputBox">
-            <input type="submit" value="Send"/>
-          </div>
+        <div class="inputBox">
+          <textarea required placeholder="Coment"></textarea>
+        </div>
+        <div class="inputBox">
+          <input type="submit" value="Send" />
+        </div>
       </div>
     </section>
     <div class="copyrightText">
-        <p>Copyright 2020 <a href="#">Itech Fast Food </a> All Right Reservet</p>
+      <p>Copyright 2020 <a href="#">Itech Fast Food </a> All Right Reservet</p>
     </div>
 
     <script type="text/javascript">
@@ -238,14 +250,14 @@
         const header = document.querySelector("header");
         header.classList.toggle("sticky", window.scrollY > 0);
       });
-
-      function ToggleMenu(){
-          const menuToggle = document.querySelector('.menuToggle');
-          const navigation = document.querySelector('.navigation')
-          menuToggle.classList.toggle('active');
-          navigation.classList.toggle('active');
-
+      function ToggleMenu() {
+        const menuToggle = document.querySelector(".menuToggle");
+        const navigation = document.querySelector(".navigation");
+        menuToggle.classList.toggle("active");
+        navigation.classList.toggle("active");
       }
     </script>
+
+    <script src="./index.js"></script>
   </body>
 </html>
